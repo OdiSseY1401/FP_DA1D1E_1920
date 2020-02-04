@@ -1,0 +1,46 @@
+package EjerciciosClases3;
+import javax.swing.*;
+public class Ejercicio2_MAIN {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num_emple=Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos empleados hay en la empresa?"));
+		String nombreEmple[]={"Pepe","Jose","Juan","Orson","Mario","Alejandro","Alberto","Benito","Chencho","Mapache"};
+		String apellidoEmple[]= {"Botika","Iñarritu","Ibarburu","MPalabra","Vaquerizo","El Capo","Morientes","Kamelas","La Escena","Acabalo"};
+		
+		Ejercicio2 [] empleado=new Ejercicio2[num_emple];
+		int cont=0;
+		int contPlus=0;
+		int contSalario=0;
+		int contSalarioPlus=0;
+		
+		for (int i = 0; i < empleado.length; i++) {
+			
+			int nnombre=(int)(Math.random()*9)+1;
+			
+			int napellido=(int)(Math.random()*9)+1;
+			
+			int nedad=(int) Math.floor(Math.random()*(65-16+1)+16);
+			
+			int nsalario=(int) Math.floor(Math.random()*(4500-855+1)+855);	
+			
+			Ejercicio1 emple=new Ejercicio1(nombreEmple[nnombre],apellidoEmple[napellido],nedad,nsalario);
+			contSalario=contSalario + emple.getSalario();
+			cont++;
+			JOptionPane.showMessageDialog(null, "El salario del empleado "+ emple.getNombre()+ " "+emple.getApellido()+" es "+emple.getSalario());
+			
+			if (emple.masDinero(emple.getSalario(), emple.getEdad())==true) {
+				JOptionPane.showMessageDialog(null, "El empleado "+emple.getNombre()+" "+ emple.getApellido()+" puede tener un aumento de sueldo por tener mas de 40 años");
+				
+				contPlus++;
+			}else {
+				JOptionPane.showMessageDialog(null, "El empleado "+emple.getNombre()+" "+ emple.getApellido()+" no puede tener un aumento de sueldo por tener mas de 40 años");
+			}
+			JOptionPane.showMessageDialog(null, "Empleado: "+emple.getNombre()+" "+emple.getApellido()+ " Edad: "+ emple.getEdad()+" Salario: "+ emple.getSalario());
+
+			contSalarioPlus=contSalarioPlus + emple.getSalario();
+		}
+
+		JOptionPane.showMessageDialog(null,"El numero de empleados es de " + cont + "\nEl salario de todos sin plus es de  " + contSalario +"\nEl salario de todos con plus es de " + contSalarioPlus + "\nEl numero de empleados con plus es de  " + contPlus);
+	}
+}

@@ -1,0 +1,7 @@
+package EjerciciosClases2;
+
+public class Ejercicio2 {
+	private String nombre, apellido;
+	private int edad, salario;
+	
+}

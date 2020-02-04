@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="conditionHistory">
+		<item key="conditionHistoryEntry_0" value="if (i%2==0) {&#x0D;&#x0A;&#x09;System.out.println(i+&quot; es par&quot;);&#x0D;&#x0A;}&#x0D;&#x0A;else {&#x0D;&#x0A;&#x09;System.out.println(i+&quot; es impar&quot;);&#x0D;&#x0A;}"/>
+		<item key="conditionHistoryEntryCount" value="1"/>
+	</section>
+	<section name="expressionHistory">
+	</section>
+</section>

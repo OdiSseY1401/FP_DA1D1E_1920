@@ -1,0 +1,56 @@
+package Ej_Cadenas;
+import java.util.*;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner (System.in);
+		int NUM=2;
+		int contVocales=0; //contará las vocales
+		int maxVocales=0; //Tendrá el mayor numero de vocales
+		String mayorNumeroVocales=""; //Guarda la frase con mas vocales
+		String cadenaOriginal=""; //Guardará la cadena original
+		Scanner tecaldo= new Scanner (System.in);
+		for (int i = 0; i < NUM; i++) {
+			System.out.println("Dime una frase " + (i+1) + " :");
+			cadenaOriginal = teclado.nextLine();
+			contVocales = numVocales(cadenaOriginal);
+		}
+		if (contVocales > maxVocales) {
+			maxVocales=contVocales;
+			mayorNumeroVocales = cadenaOriginal;
+		}
+		if (maxVocales != 0) {
+			System.out.println("La cadena con más vocales es: " + mayorNumeroVocales + " con " + maxVocales + " vocales");
+		}
+		else {
+			System.out.println("En ninguna cadena había vocales.");
+		}
+		teclado.close();
+	}
+	
+	public static int numVocales (String cadenaOriginal) {
+		String cadenaMinusculas;
+		cadenaMinusculas = cadenaOriginal.toLowerCase();
+		int nVoc=0;
+		for (int i = 0; i < cadenaMinusculas.length(); i++) {
+			switch (cadenaMinusculas.charAt(i)) {
+			case 'a':
+			case 'á':
+			case 'e':
+			case 'é':
+			case 'i':
+			case 'í':
+			case 'o':
+			case 'ó':
+			case 'u':
+			case 'ú':
+			case 'ü':	
+				nVoc++;
+				break;
+			}
+		}
+		return nVoc;
+	}
+
+}

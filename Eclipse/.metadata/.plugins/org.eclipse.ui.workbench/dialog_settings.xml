@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="dialogHeight" value="-1"/>
+		<item key="dialogWidth" value="-1"/>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textEntries">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="153"/>
+		<item key="DIALOG_Y_ORIGIN" value="146"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="E:\Grado_superior\Programación\Estaticos.zip"/>
+			<item value="E:\Grado_superior\Programación\Clases.zip"/>
+			<item value="E:\Grado_superior\Programación\Arrays.zip"/>
+			<item value="E:\Grado_superior\Programación\Corregidos_Trimestre1.zip"/>
+			<item value="E:\Grado_superior\Programación\Ejercicios_Trimestre1.zip"/>
+			<item value="E:\Grado_superior\Programación\Ejercicios.zip"/>
+			<item value="E:\Grado_superior\Programación\ParaTu.zip"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\Grado_superior\Programación\banco.tar.gz"/>
+			<item value="C:\Users\Adrian\Downloads\PuntoLinea.zip"/>
+			<item value="C:\Users\Adrian\Downloads\forAmpliado.zip"/>
+			<item value="C:\Users\Adrian\Downloads\solmatrices.zip"/>
+			<item value="C:\Users\Adrian\Downloads\arrays2.zip"/>
+			<item value="C:\Users\Adrian\Downloads\arrays1.zip"/>
+			<item value="E:\Grado_superior\Programación\CuentaBanco.zip"/>
+			<item value="E:\Grado_superior\Programación\cadenas.zip"/>
+			<item value="E:\Grado_superior\Programación\matematicas1.zip"/>
+			<item value="E:\Grado_superior\Programación\soluciones.zip"/>
+			<item value="E:\Grado_superior\Programación\Aleatorios.zip"/>
+			<item value="E:\Grado_superior\Programación\Basicos4.zip"/>
+			<item value="E:\Grado_superior\Programación\Basicos3.zip"/>
+			<item value="E:\Grado_superior\Programación\basicos2.zip"/>
+			<item value="E:\Grado_superior\Programación\basicos1.zip"/>
+			<item value="E:\Grado_superior\Programación\explicacion.zip"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\Grado_superior\Programación\Eclipse\PruebasStrings"/>
+			<item value="E:\Grado_superior\Eclipse\Aleatorios"/>
+		</list>
+	</section>
+</section>

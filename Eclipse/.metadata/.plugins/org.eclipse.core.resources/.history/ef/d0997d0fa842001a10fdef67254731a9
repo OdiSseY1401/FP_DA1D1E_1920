@@ -1,0 +1,24 @@
+package EjerciciosClases3;
+import javax.swing.*;
+import java.util.*;
+public class Ejercicio2_MAIN {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner tec = new Scanner(System.in);
+		int num_emple=Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos empleados hay en la empresa?"));
+		String nombreEmple[];
+		String apellidoEmple[];
+		
+		Ejercicio2 [] empleado=new Ejercicio2[num_emple];
+		int cont=0;
+		int contPlus=0;
+		int contSalario=0;
+		
+		for(int i=0; i<empleado.length; i++) {
+			System.out.println("Dime el nombre del empleado");
+			nombreEmple[i]=te
+		}
+	}
+
+}

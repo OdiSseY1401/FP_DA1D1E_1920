@@ -1,0 +1,15 @@
+package EjerciciosClases2;
+
+public class Ejercicio2 {
+	private String nombre, apellido;
+	private int edad, salario;
+	
+	public Ejercicio2 () {}
+	
+	public Ejercicio2 (String nombre, String apellido, int edad, int salario) {
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.edad=edad;
+		this.salario=salario;
+	}
+}

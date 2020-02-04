@@ -1,0 +1,20 @@
+package Ej_Cadenas;
+import java.util.*;
+public class Ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner (System.in);
+		int NUM=2;
+		int contVocales; //contará las vocales
+		int maxVocales; //Tendrá el mayor numero de vocales
+		String mayorNumeroVocales=""; //Guarda la frase con mas vocales
+		String cadenaOriginal; //Guardará la cadena original
+		Scanner tecaldo= new Scanner (System.in);
+		for (int i = 0; i < NUM; i++) {
+			System.out.println("Dime una frase: ");
+			cadenaOriginal = teclado.nextLine();
+		}
+	}
+
+}

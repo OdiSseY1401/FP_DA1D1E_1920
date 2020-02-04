@@ -1,0 +1,21 @@
+package Ej_Cadenas;
+import java.util.*;
+public class Ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner teclado = new Scanner (System.in);
+		int Numero;
+		System.out.println("Dime un número y te dire si es capicua: ");
+		Numero = teclado.nextInt();
+		esCapicua(Numero);
+	}
+	
+	public static boolean esCapicua (int num) {
+		boolean capi = true;
+		String Numero;
+		Numero= Integer.toString(num);
+		
+		return capi;
+	}
+}

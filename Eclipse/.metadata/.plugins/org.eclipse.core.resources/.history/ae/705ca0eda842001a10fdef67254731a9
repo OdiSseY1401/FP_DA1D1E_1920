@@ -1,0 +1,17 @@
+package EjerciciosClases3;
+import javax.swing.*;
+public class Ejercicio2_MAIN {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num_emple=Integer.parseInt(JOptionPane.showInputDialog("¿Cuantos empleados hay en la empresa?"));
+		String nombreEmple[]={"Pepe","Jose","Juan","Orson","Mario","Alejandro","Alberto","Benito","Chencho","Mapache"};
+		String apellidoEmple[]= {"Botika","Iñarritu","Ibarburu","MPalabra","Vaquerizo","El Capo","Morientes","Kamelas","La Escena","Acabalo"};
+		
+		Ejercicio2 [] empleado=new Ejercicio2[num_emple];
+		int cont=0;
+		int contPlus=0;
+		int contSalario=0;
+		
+	}
+}
