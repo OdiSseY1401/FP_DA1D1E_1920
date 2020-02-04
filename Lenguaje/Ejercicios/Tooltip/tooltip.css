@@ -1,0 +1,19 @@
+.contenedor {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.contenedor .texto {
+  font-size: 200px;
+  visibility: hidden;
+  background-color: gray;
+  color: purple;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.contenedor:hover .texto {
+  visibility: visible;
+}

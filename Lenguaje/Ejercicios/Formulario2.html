@@ -1,0 +1,47 @@
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Adrian Morante">
+		<meta name="lang" content="es">
+		<title>Formulario2</title>
+	</head>
+	<body>
+		<h1>Ficha de datos</h1>
+		<form action="http://www.google.com" method="post">
+			<fieldset>
+				<legend><font color="blue">Toma de datos</font></legend>
+				<table>
+					<tr>
+						<td>Nombre:</td><td><input type="text" name="Nombre" maxlength="30" size="15"></td>
+					</tr>
+					<tr>
+						<td>Primer Apellido:</td><td><input type="text" name="Primer apellido" maxlength="30" size="15"></td>
+					</tr>
+					<tr>
+						<td>Segundo Apellido:</td><td><input type="text" name="Segundo apellido" maxlength="30" size="15"></td>
+					</tr>
+					<tr>
+						<td>Provincia:</td>
+						<td><select name="Provincia">
+							<option>Ninguna
+							<option>Madrid
+							<option>Málaga
+							<option>Cadiz
+							<option>Córdoba
+							<option>Toledo
+						</select></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset>
+				<legend><font color="blue">Edad</font></legend>
+				<table>
+					<tr>
+						<td>Edad</td><td>20-39<input type="radio" name="Edad"> 40-59 <input type="radio" name="Edad"> 60-79 <input type="radio" name="Edad"></td>
+					</tr>
+				</table>
+			</fieldset>
+			<input type="submit" value="Enviar datos"></td><td><input type="reset" value="Borrar datos"></td>
+		</form>
+	</body>
+</html>

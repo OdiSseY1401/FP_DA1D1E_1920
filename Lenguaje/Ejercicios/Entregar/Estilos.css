@@ -1,0 +1,64 @@
+img.imagen {
+	position: fixed;
+	height: 140px;
+	width: 240px;
+	top: 125px;
+	right: 40px;
+	z-index: 100;
+}
+div#izquierda {
+	position: relative;
+	top: 100px;
+	left: 70px;
+	height: 300px;
+	width: 300px;
+	background-color: #999;
+}
+div#derecha {
+	position: absolute;
+	bottom: 100px;
+	right: 30px;
+	background-color: #000000;
+	color: #FFFFFF;
+	z-index: 99;
+}
+div#uno{
+    background: red;
+    position: absolute;
+    padding: 15px;
+    width:110px;
+    height: 380px;
+    z-index: 3;
+    top:30em;
+    left:12em
+}
+div#dos{
+    background: blue;
+    position: absolute;
+    padding: 15px;
+    width: 320px;
+    height: 4em;
+    z-index: 2;
+    top:33em;
+    left: 4em
+}
+div#tres{
+    background: green;
+    position: absolute;
+    padding: 15px;
+    width:320px;
+    height: 5em;
+    z-index: 1;
+    top:40em;
+    left:1em;
+}
+div#cuatro{
+    opacity: 0.8;
+    background:goldenrod;
+    position: absolute;
+    padding: 15px;
+    width: 7em;
+    z-index: 4;
+    top: 45em;
+    left:9em;
+}
